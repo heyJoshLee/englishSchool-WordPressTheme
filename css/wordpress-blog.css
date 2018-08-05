@@ -1,0 +1,164 @@
+#free-book-button-on-blog {
+  top: -15px;
+}
+
+a {
+  color: rgba(0,182,245, 1);
+}
+
+.tag-links {
+  color: rgba(0,182,245, 1);  
+}
+
+.author-image-for-blog-article {
+  width: 200px;
+  height: 200px;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.blog-post-author-container {
+  margin-top: 20px;
+  border-top: 2px solid rgba(10, 10, 10, 0.1);
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+  margin: auto;
+}
+
+.comment-author-vcard img {
+  width: 50px !important;
+}
+
+#main_header_logo_image,
+#main_header_logo_image_mobile {
+  width: 100%;
+}
+
+.category-tag {
+  display: inline-block;
+  background-color: rgba(0,182,245, 1);  
+  color: white;
+  padding: 8px;
+}
+
+
+/*COMMENTS*/
+
+#comment {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+.comment-author {
+  margin-bottom: 20px;
+}
+
+.commentmetadata {
+  display: none; 
+}
+
+.comment-body p,
+.comment-body .reply {
+  padding-left: 20px;,
+
+}
+
+.comment-list li + li {
+  border-top: 1px solid rgba(0,182,245, 0.2);
+}
+
+.comment-body .reply {
+  color: rgba(0,182,245, 1);
+}
+
+.comment-list li {
+  padding-top: 10px;
+}
+
+.comment-form-comment label {
+  display: none;
+}
+
+
+
+#submit {
+  background-color: rgba(0,182,245, 1);
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.comment-form-url {
+  display: none;
+}
+
+/*** FEATURED PAGE CSS ***/
+
+
+
+
+.blog_sidebar .rounded {
+  text-align: center;
+  color: rgba(0,182,245, 1);
+}
+
+.blog_sidebar article img {
+  width: 100%;
+}
+
+.fpw-page-title {
+  background-color: rgba(0,182,245, 1);
+  color: white !important;
+  margin: 0;
+  text-align: center;
+  font-size: 24px !important;
+}
+
+.fpw-featured-image {
+  display: inline-block;
+  width: 100% !important;
+  background-color: red !important;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  
+  .blog-post-content {
+    font-size: 24px !important;
+  }
+
+  .rp4wp-related-post-content {
+    position: relative;
+    left: 50px;
+  }
+
+  .comment-list,
+  .comment-respond,
+  .article_preview p {
+    font-size: 24px !important;
+  }
+
+
+  .category-tag,
+  .read_more {
+    font-size: 24px;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+}

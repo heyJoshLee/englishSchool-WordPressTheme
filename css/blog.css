@@ -1,0 +1,1207 @@
+// This was copied from the main YingwenXuexiao app
+// on 2018.07.25
+
+// Blue rgba(0,182,245, 1)
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: relative;
+  padding: 20px 30px;
+  overflow: auto;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+.btn-primary {
+  background-color: rgba(0,182,245, 1) !important;
+  border-color: rgba(0,182,245, 1) !important;
+}
+
+li {
+  list-style: none;
+}
+
+.show_list_style {
+  list-style: inherit !important;
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+
+.green-bkg {
+  background-color: green !important;
+}
+
+.green-font {
+  color: green;  
+}
+
+.red-bkg {
+  background-color: red;
+}
+
+.black-bkg {
+  background-color: rgba(10, 10, 10, 0.8);
+  color: white;
+}
+
+.strikethrough {
+  text-decoration: strikethrough;
+}
+
+
+.btn-xlarge {
+  padding: 50px !important;
+  font-size: 42px !important;
+}
+/*********
+Nav
+**********/
+
+.notifications_circle {
+  background: red;
+  border-radius: 100%;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+#nav_sandwhich {
+  background-color: rgba(0,182,245, 1);
+}
+
+#nav_sandwhich .icon-bar {
+  background-color: white ;
+}
+
+header li {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.h_padding {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.nav-links {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#main_splash {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.course_splash_preview {
+  padding: 40px 0;
+  background-color: #F4F4F4;
+}
+
+.course_splash_preview h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.course_splash_preview .course_preview {
+  text-align: center;
+}
+
+.course_splash_preview .course_preview img {
+  border-radius: 100%;
+}
+
+.enter_class_button {
+  position: absolute;
+  bottom: 10px; 
+}
+
+.spash_highlights div {
+  vertical-align: top;
+}
+
+.spash_highlights .fa{
+  font-size: 32px;
+}
+
+/*********
+sign up
+**********/
+
+.sign_up_nav_button a {
+  color: white !important;
+}
+.sign_up_nav_button {
+  position: relative;
+  height: 50%;
+}
+
+.red_x {
+  font-size: 24px;
+  color: red;
+}
+
+.red_x::after {
+}
+
+.membership_level_choice_div {
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.membership_level_choice_div .membership_name {
+  background-color: rgba(10, 10, 10, 0.8);
+  color: white;
+  text-align: center;
+}
+
+
+.membership_level_choice_button {
+  margin: 0 auto;
+}
+.membership_features {
+  padding: 0 !important;
+  text-align: center;
+}
+
+.membership_feature_list li {
+  background-color: rgba(100, 100, 100, 0.1);
+  border-top: 1px solid black;
+  padding: 10px 0;
+}
+
+.membership_feature_list {
+  padding: 0 !important;
+}
+
+.membership_level_choice_div.active {
+  border: 10px solid rgba(0,182,245, 1);
+}
+
+.membership_level_choice_div.active .membership_name {
+  // background-color: rgba(0,182,245, 1);
+}
+
+.membership_level_choice_div.active .membership_level_choice_button,
+.membership_level_choice_div .membership_level_chosen_button,
+.membership_level_chosen_button {
+  display: none;
+}
+
+
+.membership_level_choice_div.active .membership_level_chosen_button {
+  display: inline-block;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+.spash_highlights {
+  background-color: #56CDD4;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.membership_level_button {
+  background-color: red;
+}
+
+.large_splash_highlights {
+  background-color: #F4F4F4;
+  padding: 40px;
+}
+
+
+.icon_wrapper {
+  box-sizing: border-box; 
+}
+
+.icon_wrapper img {
+  max-width: 100px;  
+  margin-top: 50%;
+}
+
+.nav_item {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid white;
+  height: 50px;
+  background-color: rgba(0,182,245, 1);
+}
+
+.nav_item:hover {
+  cursor: pointer;
+  background-color: rgba(0,182,245, .8);
+}
+
+.nav_item:last-child {
+  border: none;
+}
+
+/********
+HEADER
+********/
+
+.nav-links {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+#main_header {
+  margin: 0 !important;
+  background-color: white;
+  padding: 0 !important;
+  border: none;
+}
+
+#main_nav {
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+}
+
+/*********
+UPGRADE_FOOTER
+**********/
+
+#upgrade_footer {
+  background: rgb(232, 34, 228);
+  width: 100%;
+  position: fixed !important;
+  top: 0px;
+  height: 30px;
+  text-align: center;
+  z-index: 10;
+  padding-top: 5px;
+  color: white;
+  margin: 0 !important;
+  font-size: 18px;
+}
+
+/*********
+Stripe Payment Button
+**********/
+
+
+.stripe-button-el span {
+  display: block;
+  width: 100%;
+  width: 300px;
+  height: 150px;
+}
+
+/*********
+ADMIN_NAV
+**********/
+
+.admin_nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*********
+#current_user_info_container
+**********/
+
+
+#current_user_info_container #current_user_level::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#current_user_info_container #current_user_points {
+  font-weight: bold;
+}
+
+// clearfix
+#current_user_info_container #current_user_level:after {
+  display: none;
+  clear: both;
+  content: "";
+}
+
+#current_user_info_container img {
+  border-radius: 100%;
+  height: 65px;
+  width: 65px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+
+
+#current_user_info {
+  display: relative;
+  text-align: center;
+}
+
+
+#current_user_info_container {
+  display: relative;
+}
+
+#current_user_image_and_level_container {
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  position: relative;
+}
+
+#current_user_level {
+  position: absolute;
+  top: 0;
+  left: 75px;
+}
+
+#current_user_image {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -50px;
+}
+
+#current_user_message_notification {
+  position: relative;
+  font-size: 24px;
+  color: black;
+  top: -80px;
+  left: 40px;
+}
+
+
+.color_blink {
+  animation: color_blink 3s linear infinite;
+}
+
+@keyframes color_blink {
+  0% { color: red}
+  50% { color: green }
+}
+/*********
+.vocabulary_words
+**********/
+
+#new_vocabulary_word {
+  font-size: 10px;
+}
+
+#vocabulary_words_container .fa-plus {
+  color: green;
+}
+
+.vocab_tool_tip_launcher:hover {
+  cursor: pointer;
+}
+
+.vocab_word_tool_tip {
+  background: white;
+  border-radius: 10px;
+  width: 100px;
+  position: relative;
+  top: 35px;
+  text-align: center !important;
+  border: 1px solid black;
+  display: none;
+}
+
+#add_vocabulary_form {
+  width: 100%;
+}
+
+#related_words_table {
+  font-size: 10px;
+}
+
+#related_words_results tr:hover {
+  background-color: rgba(0, 182, 244, 0.6);
+  cursor: pointer;
+}
+
+
+/*********
+#notification
+**********/
+
+#notification {
+  position: fixed;
+  bottom: 50px;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
+
+/*********
+LEVELS
+**********/
+.levels_table td {
+  margin: 10px;
+}
+
+.level_circle {
+  background-color: rgba(0,182,245, 1);
+  color: white;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.articles_container {
+  margin-top: 10px;
+}
+
+.article_author {
+  height: 200px;
+}
+
+.article_author img {
+  height: 100px;
+  width: 100px;
+}
+
+.article_author p {
+  padding-top: 30px;
+}
+
+.feature-image {
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+  height: 250px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.feature-image h1 {
+  font-size: 4.5vw;
+  letter-spacing: 20px;
+}
+
+.feature_image_role {
+  margin-bottom: 50px;
+}
+
+.article_preview {
+  padding: 15px 0;
+}
+
+.article_preview_text {
+  word-wrap: break-word;
+}
+
+.read_more {
+  color: rgba(0,182,245, 1);
+}
+
+.article_preview h1 {
+  color: rgba(0,182,245, 1);
+}
+.article_preview + .article_preview {
+  border-top: 1px solid rgba(0,182,245, 0.4);
+}
+
+.article_show {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(0,182,245, 0.4);
+  word-wrap: break-word;
+  padding-bottom: 10px;
+}
+
+.feature-image {
+  margin-bottom: 10px;
+}
+
+/*********
+Comment
+**********/
+
+.comment {
+  margin: 20px 0
+}
+
+.comment_body {
+  word-wrap: break-word;
+}
+
+.comment_author_image {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.comment_reply_launcher {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgba(0,140,245, 1) !important;
+}
+
+.comment_reply_launcher:hover {
+  cursor: pointer;
+}
+
+.comment_reply_form {
+  display: none;
+}
+
+.article_comments_section {
+  padding: 10px;
+}
+
+.comment_reply {
+  padding: 10px 0;
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  word-wrap: break-word;
+  
+}
+
+.reply_author_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.sign_up_features {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ebook_sign_up.widget {
+  padding: 0 !important;
+}
+
+.ebook_sign_up.widget .btn {
+  margin: 0 auto;
+}
+
+.ebook_sign_up.widget .topline {
+  background-color: #31C2F5;
+  color: white;
+  padding: 5px 5px 20px 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.widget_body {
+  padding: 10px;
+  text-align: center;
+}
+
+.alert {
+  margin: 0;
+}
+
+.v_margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.article_category_checkbox_container {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0 !important;
+}
+
+.article_category_checkbox_container .checkbox {
+  margin: 0;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 33px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.article_category_checkbox_container .checkbox + .checkbox {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.article_category_checkbox_container .checkbox:checked {
+  background-color: rgba(0,182,245, 1) !important;
+}
+
+.article_preview img {
+  width: 100%;
+}
+
+.blog_sidebar .widget {
+  border: 1px solid rgba(20, 20, 20, 0.1);
+  text-align: justify;
+  padding: 10px;
+}
+
+.blog_sidebar .widget + .widget {
+  margin-top: 20px;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.add_lesson_button {
+  text-align: center;
+  color: white;
+  width: 50px;
+  font-size: 38px;
+  background: green;
+  border-radius: 100%;
+}
+
+/*********
+FOOTER
+**********/
+#main_footer {
+  margin-top: 60px;
+  background-color: rgba(20, 20, 20, 0.1);
+  padding: 30px;
+}
+
+.footer_social {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#main_footer .col-xs-4 {
+  position: relative;
+  height: 140px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.social_media_button {
+  width: 90px;
+  display: inline-block;
+  height: 100px;
+  background-image: url("icons/social_media_buttons.jpg");
+}
+
+.facebook_social_button {
+  background-position: -363px -20px;
+}
+
+.youtube_social_button {
+  background-position: -363px -230px;
+}
+
+
+.twitter_social_button {
+  background-position: -143px -230px;
+}
+
+
+
+/*********
+COURSE
+**********/
+
+.course_preview {
+  margin: 0 4px;
+  padding: 4px 2px;
+  background-color: #F8F8F8;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.course_preview img {
+  width: 100%;
+  height: 250px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+/*********
+LESSON_PANEL
+**********/
+
+#lesson_panel {
+  color: white;
+}
+
+#lesson_panel h4 {
+  text-align: center;
+}
+
+#lesson_panel ul {
+  padding: 0;
+}
+
+#lesson_panel li {
+  border-top: 1px solid white;
+}
+
+.lesson_link_in_lesson_panel {
+  color: black;
+  overflow: auto;
+  background: rgba(20, 20, 20, 0.1)
+}
+
+.lesson_link_in_lesson_panel ol {
+  padding: 0;
+}
+
+.course_intro_in_lesson_panel,
+.unit_header_in_lesson_panel  {
+  text-align: center;
+  font-weight: bold;
+  height: 30px;
+  color: white;
+  padding-top: 5px;
+  background-color: rgba(0,182,245, 1);
+  border: 1px solid rgba(0,182,245, 1);
+}
+
+.unit_header_in_lesson_panel {
+  margin: 0;
+  border-top: 1px solid white;
+}
+
+.unit_header_in_lesson_panel:hover {
+  cursor: pointer;
+}
+
+#lesson_panel li:hover {
+  cursor: pointer;
+  background-color: rgba(0,182,200, 0.5);
+}
+
+#lesson_panel li + li {
+  border-top: 1px solid white;
+}
+
+.current_lesson {
+  background-color: white !important;
+  color: rgba(0,182,245, 1) !important;
+}
+
+
+/*********
+LESSON
+**********/
+
+.lesson_notes_container {
+  text-align: center;
+}
+.lesson_notes_container .fa {
+  font-size: 24px;
+}
+.lesson_notes_container:hover {
+  cursor: pointer;
+}
+
+.default_formatting li {
+  list-style: inherit;
+}
+.ajax_saving {
+  display: none;
+  color: blue;
+}
+
+.lesson_instructions {
+  margin-top: 20px;
+}
+
+
+.lesson_audio {
+  margin: 20px 0;
+}
+
+
+/*********
+This section hides the download button on audio elements
+**********/
+
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+/*********
+#video_container
+**********/
+
+#video_container {
+  margin-bottom: 10px;
+}
+
+/*********
+Flash Cards
+**********/
+
+.flash_card_container {
+  text-align: center;
+}
+
+.answer_card:hover {
+  cursor: pointer;
+}
+
+.flash_card_message {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  padding: 3px 0px;
+  text-align: center;
+  z-index: 100px;
+  display: none;
+}
+
+.flash_card_option_checkbox {
+  background-color: red;
+}
+
+.flash_card_option_checkbox.flash_card_checked {
+  background-color: green !important;
+}
+
+#correct_and_incorrect_marks {
+  height: 80px;
+  font-size: 24px;
+  display: none;
+}
+
+#correct_and_incorrect_marks .fa {
+  margin-top: -5px;
+}
+
+
+#correct_and_incorrect_marks #correct,
+#correct_and_incorrect_marks #incorrect {
+  position: relative;
+  top: -15px;
+  display: none;
+}
+
+#correct_and_incorrect_marks #correct {
+  color: green;
+}
+
+#correct_and_incorrect_marks #incorrect {
+  color: red;
+}
+
+
+
+.flash_card_study_option_button {
+  background-color: rgba(0,182,245, 1);
+  display:inline-block;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid rgba(0,182,245, 1);
+  text-align: center;
+  padding-top: 2px;
+}
+
+.flash_card_study_option_button:hover {
+  cursor: pointer;
+}
+
+.flash_card_study_option_button.checked {
+  background: white !important;
+  color: rgba(0,182,245, 1) !important;
+}
+
+
+/*********
+#level_up_container
+**********/
+
+#level_up_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  background-color: rgba(0,182,245, 1);
+  border: 20px solid white;
+  color: white;
+  z-index: 10;
+}
+/*********
+QUIZ
+**********/
+
+.quiz_question {
+  background: rgba(10, 10, 10, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.question_choices {
+  padding: 0;
+  margin: 0;
+}
+
+.question_choice input[type="radio"] {
+  margin-top: 15px;
+}
+
+.question_choices ol li {
+  list-style: decimal;
+}
+.question_choice .col-sm-6 {
+  margin-left: 10px;
+}
+
+.choice_body {
+  margin: 8px 0;
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px 0 4px 10px;
+}
+
+.selected_choice {
+  background-color: rgba(0,182,245, 1);
+}
+
+.correct_answer {
+  background-color: green;
+}
+
+.incorrect_answer {
+    background-color: red;
+}
+
+.question_choice_form {
+  display: none;
+}
+
+
+/*********
+dashboard
+**********/
+
+.course_levels_table_color_preview {
+  color: white;
+}
+
+
+#course_level_color_preview {
+  margin-top: 30px;
+}
+
+/*********
+GAMES
+**********/
+
+
+
+/*********
+Word Search
+**********/
+
+#howToPlayLauncher {
+  color: rgba(0,182,245, 1);
+  text-decoration: underline;
+}
+#howToPlayLauncher:hover {
+  cursor: pointer;
+}
+
+#puzzle .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  font: 1em sans-serif;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* indicates when a square has been selected */
+#puzzle .selected {
+  background-color: orange;
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#puzzle .found {
+  background-color: blue;
+  color: white;
+}
+
+#puzzle .solved {
+  background-color: purple;
+  color: white;
+}
+
+/* indicates that all words have been found */
+#puzzle .complete {
+  background-color: green;
+}
+
+/**
+* Styles for the word list
+*/
+#words {
+  padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+}
+
+#words ul {
+  list-style-type: none;
+}
+
+#words li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+}
+
+/* indicates that the word has been found */
+#words .wordFound {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/**
+* Styles for the button
+*/
+#solve {
+  margin: 0 30px;
+
+}
+
+
+.puzzleSquare {
+  width: 30px;
+  height: 30px;
+}
+
+/*********
+.download
+**********/
+
+.download_image {
+  margin: 20px 0;
+}
+
+/*********
+.affiliate_link_message
+**********/
+
+.affiliate_link_message {
+  background: rgb(232, 34, 228) !important;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+/**********
+.ebook
+*********/
+
+.admin-book-preview {
+  text-align: center;
+}
+
+
+
+.admin-ebook-preview-img {
+  width: 150px;
+  height: 200px;
+}
+
+.pdf_viewer {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  bottom: 0px;
+}
+
+.pdf-viwer-toolbar {
+  width: 100%;
+  height: 60px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0,182,245, 1);
+  color: white;
+  text-align: center;
+}
+
+
+#pdf-view-closer {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#pdf-view-closer:hover {
+  cursor: pointer;
+}
+
+
+// iphone 6 plus
+@media screen and (max-width: 415px) {
+  .comment_author_image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+footer,
+footer h5 {
+  font-size: 24px;
+}
+
+footer .row:last-child {
+
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .icon_wrapper img {
+    margin-top: 0;
+  }
+
+}
